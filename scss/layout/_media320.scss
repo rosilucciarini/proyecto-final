@@ -1,0 +1,21 @@
+@media (max-width:320px){
+    .galeria{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+        "img8"
+        "img9"
+        "img10"
+        "img11"
+        "img12";
+    }
+    .footer-li{
+        gap: 50px;
+    }
+ }

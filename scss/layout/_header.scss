@@ -1,0 +1,39 @@
+.header{
+    h1{
+     display: flex;
+    background-color:$color-header;
+    padding: 20px;
+    font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    
+    }
+}
+.header{
+    h2{
+        @extend h1;
+    }
+}
+
+.navbar-barra{
+    display: flex; 
+    list-style: none;
+   gap: 20px;
+   padding: 20px;
+   background-color: $color-navbar-footer;
+   li{
+    a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    &:hover{
+        color: blueviolet;
+    } 
+    }
+    .carrito{
+        width: 30px;
+        height: 30px;
+    }
+   }
+}

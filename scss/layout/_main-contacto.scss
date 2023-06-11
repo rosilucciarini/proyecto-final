@@ -1,0 +1,53 @@
+.fondo{
+    width: 100%;
+    height: 50vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url(../assets/img/inspiracionsillon.jpg); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      .form{
+        @include grid(repeat(6,1fr), repeat(6,1fr),"fieldset fieldset fieldset fieldset fieldset fieldset""fieldset fieldset fieldset fieldset fieldset fieldset""fieldset fieldset fieldset fieldset fieldset fieldset""fieldset fieldset fieldset fieldset fieldset fieldset""fieldset fieldset  fieldset  fieldset  fieldset fieldset"". submit submit submit submit ."". reset reset reset reset .", center, 5px);
+        background: rgba(0, 0, 0, 0.7);
+        width: 80%;
+        height: 80%;
+        padding: 10px 40px;
+        box-sizing: border-box;
+        
+        
+        fieldset{
+          grid-area: fieldset;
+        }
+        .submit{
+          grid-area: submit;
+          font-size: 14px;
+        }
+        .reset{
+          grid-area: reset;
+          font-size: 13px;
+        }
+        
+
+        input{
+        width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    justify-content: center;
+   
+        }
+      }   
+  }
+  .nombre{
+    font-size: 30px;
+  }
+  .boton{
+    grid-area: boton;
+    background: black;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 5px;  
+  }

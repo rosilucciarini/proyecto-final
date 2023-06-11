@@ -1,0 +1,16 @@
+.local{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    background-color:  $color-main;
+
+    .local-info{
+       padding-top: 50px;
+        line-height: 2;
+    }
+    iframe{
+        justify-content: right;
+        padding-left: 100px;
+        
+    }
+}

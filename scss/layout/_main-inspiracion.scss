@@ -1,0 +1,60 @@
+.section-principal{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-main;
+    h3{
+    font-size: 30px;
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif; 
+    }
+}
+.galeria{
+   @include grid(repeat(4,1fr),repeat(3,1fr),"img1 img2 img3 img4""img5 img6 img7 img8""img9 img10 img11 img12", center, 5px);
+    
+    background-color: $color-main;
+    img{
+     object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    }
+    .img1{
+        grid-area: img1;
+     }
+     .img2{
+        grid-area: img2;
+     }
+     .img3{
+        grid-area: img3;
+     }
+     .img4{
+        grid-area: img4;
+     }
+     .img5{
+        grid-area: img5;
+     }
+     .img6{
+        grid-area: img6;
+     }
+     .img7{
+        grid-area: img7;
+     }
+     .img8{
+        grid-area: img8;
+     }
+     .img9{
+        grid-area: img9;
+     }
+     .img10{
+        grid-area: img10;
+     }
+     .img11{
+        grid-area: img11;
+     }
+     .img12{
+        grid-area: img12;
+     }
+}

@@ -1,0 +1,14 @@
+@media (max-width:375px){
+    .navbar-barra{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fondo{
+        height: 200vw;
+    }
+    .form{
+        width: 100%;
+        height: 100%;
+        padding: 10px 20px;
+    }
+ }

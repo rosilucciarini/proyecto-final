@@ -1,0 +1,26 @@
+.container-portada{
+    display: grid;
+    background: url(../assets/img/fotoportada.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-items: center;
+
+.portada{
+    @include grid(repeat(6,1fr), repeat(4,1fr),". p p p p ." ". p p p p ."". p p p p ."". p p p p .", center, 10px);
+    background: rgba(0, 0, 0, 0.7);
+    width: 80%;
+    height: 80%;
+}
+p{
+    grid-area: p;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    color: white;
+}
+}

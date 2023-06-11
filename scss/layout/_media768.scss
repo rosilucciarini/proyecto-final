@@ -1,0 +1,25 @@
+@media (max-width:768px){
+    .navbar-barra{
+        justify-content: center;
+    }
+    .local{
+        display: block;
+        padding: 20px;
+        
+    }
+    .local-info{
+        padding-top: 10px;
+
+    }
+    .mapa{
+        justify-content: center;
+        align-content: center;
+    }
+    iframe{
+        padding-top: 10px;
+        padding-left: 0;
+        max-width: 100%;
+        height: 100%;
+        
+    }
+}
